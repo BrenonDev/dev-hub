@@ -28,3 +28,13 @@
     --color-gray-500: #C0C4CE;
     --color-gray-600: #E2E4E9;
 }
+
+body {
+    font: var(--text-md);
+    color: var(--color-gray-600);
+    background-color: var(--color-gray-100);
+}
+
+.container {
+    margin-inline: auto;
+}
