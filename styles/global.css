@@ -3,3 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --font-family-asap: "Asap", serif;
+    --font-family-inconsolata: "Inconsolata", serif;
+    --font-family-maven-pro: "Maven Pro", serif;
+    --font-family-roboto-mono: "Roboto Mono", monospace;
+    --title-lg: 700 54px/1.2 var(--font-family-asap);
+    --title-md: 700 24px/1.2 var(--font-family-asap);
+    --title-sm: 700 16px/1.2 var(--font-family-asap);
+    --subtitle: 400 20px/1.2 var(--font-family-inconsolata);
+    --text-md: 400 16px/1.4 var(--font-family-maven-pro);
+    --text-sm: 400 14px/1.4 var(--font-family-maven-pro);
+    --signature: 400 14px/1 var(--font-family-roboto-mono)
+}
