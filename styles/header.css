@@ -10,7 +10,7 @@
         text-align: center;
         margin-bottom: 80px;
         
-        h3 {
+        h1 {
             font: var(--subtitle);
             color: var(--color-gray-500);
             margin-block: 56px 8px;
@@ -20,7 +20,7 @@
             }
         }
 
-        h1 {
+        h2 {
             font: var(--title-lg);
             color: var(--color-gray-600);
         }
