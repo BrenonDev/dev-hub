@@ -39,7 +39,8 @@
         }
 
         div:hover {
-            border: 1px solid #3996DB;
+            border: 1.5px solid var(--color-blue);
+            padding: 19px
         }
 
         img:nth-child(1) {
@@ -49,6 +50,7 @@
 
         p {
             font: var(--text-md);
+            color: var(--color-gray-500);
         }
 
         img:nth-child(3) {
