@@ -39,7 +39,7 @@
         }
 
         div:hover {
-            border: 1.5px solid var(--color-blue);
+            border: 1px solid var(--color-blue);
             padding: 19px
         }
 
@@ -57,6 +57,22 @@
             width: 20px;
             height: 20px;
             margin-left: auto;
+        }
+    }
+
+    #signature {
+        padding-top: 110px;
+        text-align: center;
+        margin-bottom: 48px;
+        
+        span {
+            font: 14px "Roboto Mono", monospace;;
+            background: var(--color-gray-300);
+            color: var(--color-gray-600);
+            display: inline-block;
+            padding: 3px 7px 5px;
+            margin-inline: auto;
+            border-radius: 5px;
         }
     }
 }
